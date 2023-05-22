@@ -472,7 +472,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200004", 256, TRUE);
 	OutputLine(NULL, "「け、圭一くん冷たい。",
-		   NULL, "\""Keiichi-kun, você é tão frio.", Line_WaitForInput);
+		   NULL, "\"Keiichi-kun, você é tão frio.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200005", 256, TRUE);
 	OutputLine(NULL, "いつも待っててあげてるのにー…。」",
 		   NULL, " Eu espero por você o tempo todo...\"", GetGlobalFlag(GLinemodeSp));
