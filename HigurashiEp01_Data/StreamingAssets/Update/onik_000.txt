@@ -28,7 +28,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…誰かが、ずっと謝っている気がした。",
-		   NULL, "... Alguém está se desculpando há um tempo.", Line_Normal);
+		   NULL, "...Alguém está se desculpando há um tempo.", Line_Normal);
 	ClearMessage();
 
 //　彼女は何を謝っているのだろう＠
@@ -159,7 +159,7 @@ void main()
 //　...一度くらいは食べに行けばよかった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…一度くらいは食べに行けばよかった。",
-		   NULL, "... Eu deveria ter ido pelo menos uma vez.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Eu deveria ter ido pelo menos uma vez.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -320,7 +320,7 @@ void main()
 //　窓の外の風景は、半日前までいた都会と同じ国であることを＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　窓の外の風景は、半日前までいた都会と同じ国であることを、",
-		   NULL, "Era difícil acreditar que a paisagem além da janela e da cidade que eu estava em meio dia atrás estavam no mesmo país.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Era difícil acreditar que a paisagem além da janela e da cidade que eu estava meio dia atrás estavam no mesmo país.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
