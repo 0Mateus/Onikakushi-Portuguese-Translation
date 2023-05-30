@@ -11,13 +11,13 @@ void dialog000()
 		   NULL, "\"...Heh!", Line_Continue);
 	Wait( 1000 );
 	OutputLine(NULL, "　だが諦めろ。",
-		   NULL, " Nem mesmo.", Line_WaitForInput);
+		   NULL, " Don't even.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s20/01/440100005", 256, TRUE);
 	OutputLine(NULL, "俺に誕生日で挑もうったって無駄なことだ！！",
-		   NULL, " É impossível me desafiar em um aniversário!!!", Line_WaitForInput);
+		   NULL, " It's impossible to challenge me by birthday!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s20/01/440100006", 256, TRUE);
 	OutputLine(NULL, "　……何ならどっちが年上か、罰ゲームつきで勝負してもいいぜー！」",
-		   NULL, " ... Podemos competir para ver quem é o mais velho, se você quiser, com punição, é claro!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... We can compete over who's the oldest if you like, with punishment, of course!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -26,13 +26,13 @@ void dialog001()
 //　突然、賭けにされて狼狽するレナ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　突然、勝負を挑まれて狼狽するレナ。",
-		   NULL, "Rena entrou em pânico ao ser desafiada de repente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rena panicked at suddenly being challenged.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　...うろたえ具合から今月の小遣いは残り少ないと断定する＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…うろたえ具合からそれほど勝算に自信がないものと断定する。",
-		   NULL, "... Como ela está em pânico, posso ter certeza de que ela não está confiante na vitória.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... Given how panicked she is, I can be sure she isn't confident in winning.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
