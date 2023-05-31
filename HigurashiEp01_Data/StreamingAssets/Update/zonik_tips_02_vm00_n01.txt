@@ -11,7 +11,7 @@ void dialog000()
 		   NULL, "\"Do meu ponto de vista, a saia que você está usando parece que seria muito mais fresca.", Line_Continue);
 	Wait ( 1500 );
 	OutputLine(NULL, "この時期のズボンの股座がどれだけ蒸すか、女のお前にゃわかるまい！」",
-		   NULL, " Uma garota como você simplesmente não entenderia. Usar jeans durante essa estação e ver como a virilha fica quente!\"", Line_Normal);
+		   NULL, " Uma garota como você simplesmente não entenderia. Usar jeans nesta estação e como a região íntima fica abafada!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModSetLayerFilter(1, 256, "none");

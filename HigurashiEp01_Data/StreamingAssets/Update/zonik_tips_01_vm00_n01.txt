@@ -14,10 +14,10 @@ void dialog000()
 		   NULL, " Nem mesmo.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s20/01/440100005", 256, TRUE);
 	OutputLine(NULL, "俺に誕生日で挑もうったって無駄なことだ！！",
-		   NULL, " É impossível me desafiar em um aniversário!!!", Line_WaitForInput);
+		   NULL, " É impossível me desafiar em um aniversário!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s20/01/440100006", 256, TRUE);
 	OutputLine(NULL, "　……何ならひと月差ごとに１００円の賭けをしてもいいぜー！」",
-		   NULL, " ... Eu não me importaria se você apostasse um dólar por mês!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Eu não me importaria se você apostasse um dólar por mês!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -33,6 +33,6 @@ void dialog001()
 //　...うろたえ具合から今月の小遣いは残り少ないと断定する＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…うろたえ具合から今月の小遣いは残り少ないと断定する。",
-		   NULL, "... Como ela está em pânico, tenho certeza de que não lhe resta muita mesada este mês.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Como ela está em pânico, tenho certeza de que não lhe resta muita mesada este mês.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }

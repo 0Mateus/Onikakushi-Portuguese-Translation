@@ -64,7 +64,7 @@ void main()
 //　沙都子が気だるそうにスカートをバタバタさせている＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子が気だるそうにスカートをバタバタさせている。",
-		   NULL, "Satoko estava balançando a saia de maneira vagarosa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Satoko estava balançando sua saia preguiçosamente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -131,7 +131,7 @@ void main()
 		   NULL, " Obrigado!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200022", 256, TRUE);
 	OutputLine(NULL, "　本当に涼しいんだよ。」",
-		   NULL, " Eles realmente são muito legais.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Elas realmente são muito legais.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -188,7 +188,7 @@ void main()
 //　......レナと沙都子では根本的に価値観が違う気がするぞ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……レナと沙都子では根本的に価値観が違う気がするぞ。",
-		   NULL, "... Eu tinha a sensação de que os valores básicos de Rena e Satoko eram fundamentalmente diferentes.", Line_Normal);
+		   NULL, "...Eu tinha a sensação de que os valores básicos de Rena e Satoko eram fundamentalmente diferentes.", Line_Normal);
 	ClearMessage();
 
 //「そう言えば...、この学校って指定の制服とかないんだよな。＠

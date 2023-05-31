@@ -313,7 +313,7 @@ void main()
 //　新幹線やら電車やらを乗り継ぎ数時間＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　新幹線やら電車やらを乗り継ぎ数時間。",
-		   NULL, "Passamos horas andando de tudo, desde o trem de bala até as rotas locais.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Passamos horas andando de tudo, desde o trem-bala até as rotas locais.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

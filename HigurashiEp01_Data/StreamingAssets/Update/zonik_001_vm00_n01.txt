@@ -52,7 +52,7 @@ void dialog000()
 //「毎朝、元気全開で大変なんだ＠今度見せてやるから挨拶してみろ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「毎朝、元気全開で大変なんだ。",
-		   NULL, "\"No entanto, o fato de estar tão "cheio" de energia todas as manhãs é um grande problema.", Line_WaitForInput);
+		   NULL, "\"No entanto, o fato de estar tão 'cheio' de energia todas as manhãs é um grande problema.", Line_WaitForInput);
 	OutputLine(NULL, "今度見せてやるから挨拶してみろ。」",
 		   NULL, " Eu o apresentarei na próxima vez, portanto, não deixe de cumprimentá-lo adequadamente.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -61,7 +61,7 @@ void dialog000()
 //「今度なんて言わないで今がいいなぁ＠朝の新鮮な空気を吸わせてあげたらぁ？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「今度なんて言わないで今がいいなぁ。",
-		   NULL, "\"Não diga "da próxima vez". Agora mesmo está ótimo.", Line_WaitForInput);
+		   NULL, "\"Não diga 'da próxima vez'. Agora mesmo está ótimo.", Line_WaitForInput);
 	OutputLine(NULL, "朝の新鮮な空気を吸わせてあげたらぁ？」",
 		   NULL, " Que tal deixar o rapazinho respirar um pouco do ar fresco da manhã?\"", Line_Normal);
 	ClearMessage();
