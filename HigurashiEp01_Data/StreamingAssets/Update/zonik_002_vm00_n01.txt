@@ -55,7 +55,7 @@ void dialog001()
 			   NULL, "\"...Sim! Coronel Sanders.☆", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200159", 256, TRUE);
 	OutputLine(NULL, "　……はぅ……かぁいい……お持ち帰りしたいぃ…☆」",
-		   NULL, " ...Hau... muito fofo... Quero levá-lo para casa...☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Hau... fofíssimo... Quero levá-lo para casa...☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 

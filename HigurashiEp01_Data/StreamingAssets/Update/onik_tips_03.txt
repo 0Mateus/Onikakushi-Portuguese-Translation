@@ -305,10 +305,10 @@ void main()
 		   NULL, "\"Eu realmente gostaria de ter a chance de explorar a casa de Kei-chan...", Line_Continue);
 	Wait( 1600 );
 	OutputLine(NULL, "…お金持ちじゃないと主張しながらもあの邸宅！！",
-		   NULL, " Dizer que não é rico, mas ter uma casa como essa!!!", Line_WaitForInput);
+		   NULL, " Dizer que não é rico, mas ter uma casa como essa!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300022", 256, TRUE);
 	OutputLine(NULL, "　一体何が隠されているのか！！」",
-		   NULL, " O que poderia estar escondido lá?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " O que poderia estar escondido lá!?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
