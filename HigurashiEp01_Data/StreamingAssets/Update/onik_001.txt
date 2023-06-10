@@ -2991,9 +2991,9 @@ void main()
 //　年齢も性別も違う＠でも、仲間だった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　年齢も性別も違う。",
-		   NULL, "Nossas idades e gêneros podem ter sido diferentes,", Line_WaitForInput);
+		   NULL, "Nossas idades e gêneros podem ser diferentes,", Line_WaitForInput);
 	OutputLine(NULL, "でも、仲間だった。",
-		   NULL, " mas éramos somos todos amigos.", Line_Normal);
+		   NULL, " mas somos todos amigos.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 //	DrawBustshot( 1, "sa_se_wa_a1", -160-45, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
@@ -3005,7 +3005,7 @@ void main()
 	ModDrawCharacter(3, 2, "sprite/re1b_warai_b1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 	//「いっただきま～す！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一たち</color>", NULL, "<color=#f5e6d3>Keiichi and others</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一たち</color>", NULL, "<color=#f5e6d3>Keiichi e os outros</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200045", 256, TRUE);
 	ModPlayVoiceLS(5, 3, "ps3/s19/03/990300050", 256, TRUE);
 	ModPlayVoiceLS(6, 5, "ps3/s19/05/990500011", 256, TRUE);
@@ -3166,7 +3166,7 @@ void main()
 //　どうも梨花ちゃんが毎日作ってきてあげているらしい￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どうも梨花ちゃんが毎日作ってきてあげているらしい。",
-		   NULL, "Parece que Rika-chan faz isso para os dois todos os dias.", Line_Normal);
+		   NULL, "Parece que Rika-chan faz isso para as duas todos os dias.", Line_Normal);
 	ClearMessage();
 
 
@@ -3862,7 +3862,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei00910", 256, TRUE);
 	OutputLine(NULL, "「…あ、甘いって……これよりまだ上があるってのかよ…？」",
-		   NULL, "\"...F-Fácil... Quer dizer que poderia ser mais forte do que isso...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...L-Leve... Quer dizer que poderia ser mais forte do que isso...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4192,7 +4192,7 @@ void main()
 //　一瞬の心の隙だった。魅音がこんなおいしい揚げ足を取らないわけがない...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一瞬の心の隙だった。魅音がこんなおいしい揚げ足を取らないわけがない…！",
-		   NULL, "Foi apenas um lapso momentâneo, mas de forma alguma Mion deixaria escapar um detalhe tão delicioso.", Line_Normal);
+		   NULL, "Foi apenas um lapso momentâneo, mas de forma alguma Mion deixaria escapar um detalhe tão minucioso.", Line_Normal);
 	ClearMessage();
 
 //「え、いやその......、＠

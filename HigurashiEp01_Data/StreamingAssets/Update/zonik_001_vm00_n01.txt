@@ -34,7 +34,7 @@ void dialog000()
 	OutputLine(NULL, "「そうだよ立派になったぞ。",
 		   NULL, "\"Eu cresci de forma esplêndida.", Line_WaitForInput);
 	OutputLine(NULL, "驚くぞ。」",
-		   NULL, " You'd be surprised.\"",  GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você iria ficar surpresa.\"",  GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

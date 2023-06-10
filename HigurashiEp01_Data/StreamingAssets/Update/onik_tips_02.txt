@@ -113,7 +113,7 @@ void main()
 		   NULL, "\"As roupas de verão da Rena têm uma cor agradável e refrescante.", Line_Continue);
 	Wait( 1900 );
 	OutputLine(NULL, "見てるこっちも涼しくなる。」",
-		   NULL, " Sinto-me mais tranquilo só de olhar para eles.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sinto-me mais tranquilo só de olhar para elas.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

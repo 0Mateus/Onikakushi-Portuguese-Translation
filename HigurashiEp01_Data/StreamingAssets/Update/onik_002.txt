@@ -761,7 +761,7 @@ void main()
 //　それを思えば２人の言うことは、決して冗談ではないのかもしれない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを思えば２人の言うことは、決して冗談ではないのかもしれない。",
-		   NULL, "Pensar nisso me fez acreditar que o que eles disseram não era uma piada.", Line_Normal);
+		   NULL, "Pensar nisso me fez acreditar que o que elas disseram não era uma piada.", Line_Normal);
 	ClearMessage();
 
 
@@ -1105,7 +1105,7 @@ void main()
 //　…どうしてここに？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…どうしてここに？！",
-		   NULL, "...Por que eles estão aqui?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Por que elas estão aqui?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1451,7 +1451,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　激しい戦いは、豊富な運動量と肘によるブロックで序盤、沙都子が優位に立つかに見えたが、箸さばきの致命的な差が形勢を一気にひっくり返す！",
-		   NULL, "Foi uma batalha difícil. Bloqueando com todo o seu movimento e com uma cotovelada nos movimentos iniciais, Satoko parecia ter a vantagem. Mas a diferença em nossa habilidade com os pauzinhos provou ser fatal e me deu a vantagem!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Foi uma batalha difícil. Bloqueando com todo o seu movimento e com uma cotovelada nos movimentos iniciais, Satoko parecia ter a vantagem. Mas a diferença em nossa habilidade com os hachis provou ser fatal e me deu a vantagem!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2036,7 +2036,7 @@ void main()
 //　だが沙都子に勝つにはこれしかない！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが沙都子に勝つにはこれしかない！！",
-		   NULL, "Mas era a única coisa que tínhamos para vencer o Satoko!", Line_Normal);
+		   NULL, "Mas era a única coisa que tínhamos para vencer a Satoko!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("black", "left", 0, 0, 300 );

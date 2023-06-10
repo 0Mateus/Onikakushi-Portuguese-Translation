@@ -27,7 +27,7 @@ void dialog000()
 	OutputLine(NULL, "「こんなに立派に育ってくれて…",
 		   NULL, "\"Você cresceu tão magnificamente...", Line_Continue);
 	OutputLine(NULL, "…おじさん苦労した甲斐があったよ」",
-		   NULL, " All the trouble this old man had to go through was worth it.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Todos os problemas que esse velho teve de enfrentar valeram a pena.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //ご丁寧にハンカチまで取り出して泣きまねをする。

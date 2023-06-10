@@ -276,7 +276,7 @@ void main()
 		   NULL, "\"Então, a Satoko e a Rika-chan são alunas do primeiro ano.", Line_Continue);
 	Wait( 2000 );
 	OutputLine(NULL, "……どころか学校が違うくらいの下級生だよな？」",
-		   NULL, " ...A série delas é tão diferente que eles deveriam estar em uma escola diferente, não é mesmo?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...A série delas é tão diferente que elas deveriam estar em uma escola diferente, não é mesmo?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -583,7 +583,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200019", 256, TRUE);
 	OutputLine(NULL, "「え、え、永久就職って何だろ？！",
-		   NULL, "\"O-o quê você quer dizer com tirar o proveito do Kei-chan?", Line_Continue);
+		   NULL, "\"O-O quê você quer dizer com tirar o proveito do Kei-chan?", Line_Continue);
 	Wait( 2200 );
 	OutputLine(NULL, "　何だろ？！」",
 		   NULL, " O que você quer dizer com isso?\"", Line_Normal);
