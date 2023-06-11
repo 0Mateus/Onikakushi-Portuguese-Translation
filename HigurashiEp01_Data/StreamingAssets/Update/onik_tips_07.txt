@@ -565,7 +565,7 @@ void main()
 	OutputLine(NULL, "「ほらほら、圭一くんも魅ぃちゃんも。",
 		   NULL, "\"Vamos lá, vamos lá Keiichi-kun, Mii-chan.", Line_Continue);
 	OutputLine(NULL, "先生来るよ！」",
-		   NULL, " O professor está chegando!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " A professora está chegando!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

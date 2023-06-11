@@ -1325,7 +1325,7 @@ void main()
 
 
 //「伝言伝言あははは～～！＠　いいよいいよ！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Garota</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girla99001", 256, TRUE);
 	OutputLine(NULL, "「伝言伝言あははは〜〜！！",
 		   NULL, "\"Mensagem, mensagem, ahahaha~~!!", Line_WaitForInput);
@@ -1514,7 +1514,7 @@ void main()
 
 
 //「いないね前原さん＠そっちいた？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Garota</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girlb99001", 256, TRUE);
 	OutputLine(NULL, "「いないね前原さん。",
 		   NULL, "\"Maebara-san não está por perto.", Line_WaitForInput);
@@ -1526,7 +1526,7 @@ void main()
 
 
 //「いない～＠圭一さんどこだろ＠お父さんが校門に来てるのにね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Garota</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girlc99001", 256, TRUE);
 	OutputLine(NULL, "「いない〜。",
 		   NULL, "\"Não~", Line_WaitForInput);
@@ -1788,7 +1788,7 @@ void main()
 	OutputLine(NULL, "　魅音がッ？！",
 		   NULL, "Mion!?", Line_WaitForInput);
 	OutputLine(NULL, "　まさか…俺の作戦で鬼になったのか？！",
-		   NULL, " Não podia ser... Ela havia se tornado 'aquilo' por causa da minha pequena estratégia!?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Não podia ser... Ela havia se tornado um 'pegador' por causa da minha pequena estratégia!?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2080,7 +2080,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05740", 256, TRUE);
 	OutputLine(NULL, "「お…お前ら怖い！！",
-		   NULL, "\"V... Vocês são assustadores!!!", Line_WaitForInput);
+		   NULL, "\"V... Vocês são assustadoras!!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05750", 256, TRUE);
 	OutputLine(NULL, "　怖過ぎるッ！！！」",
 		   NULL, " Muito assustador!!!\"", GetGlobalFlag(GLinemodeSp));
@@ -2863,7 +2863,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300255", 256, TRUE);
 	OutputLine(NULL, "「フリしてただけ〜。敵を騙すには味方からって言うじゃ〜ん？」",
-		   NULL, "\"Apenas fingiu ser um. Dizem que você precisa enganar seus aliados antes de enganar o inimigo, sabe~?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Apenas fingi ser um. Dizem que você precisa enganar seus aliados antes de enganar o inimigo, sabe~?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

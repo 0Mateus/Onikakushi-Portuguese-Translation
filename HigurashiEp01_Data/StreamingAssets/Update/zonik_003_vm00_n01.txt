@@ -235,7 +235,7 @@ void dialog011()
 		   NULL, "\"Você está certo. ...Ahahaha!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200227", 256, TRUE);
 	OutputLine(NULL, "　早くケンタくんをお持ち帰りしたい〜！」",
-		   NULL, " Eu realmente quero levar o Coronel Sanders para logo~!\"", Line_Normal);
+		   NULL, " Eu realmente quero levar o Coronel Sanders para casa logo~!\"", Line_Normal);
 	ClearMessage();
 }
 
