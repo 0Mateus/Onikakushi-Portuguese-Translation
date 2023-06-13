@@ -276,7 +276,7 @@ void main()
 //　お袋が毎朝用意する朝食をボイコットすることが、塾通いを強要されていた自分にできる唯一の反抗だったのかもしれない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お袋が毎朝用意する朝食をボイコットすることが、塾通いを強要されていた自分にできる唯一の反抗だったのかもしれない。",
-		   NULL, "Boicotar o pequeno-almoço que a minha mãe me preparava todas as manhãs... era provavelmente a única forma de protestar contra o fato de ser obrigado a frequentar a escola.", Line_Normal);
+		   NULL, "Boicotar o pequeno-almoço que a minha mãe me preparava todas as manhãs... era provavelmente a única forma de protestar contra o fato de ser obrigado a frequentar a escola de reforço.", Line_Normal);
 	ClearMessage();
 
 
