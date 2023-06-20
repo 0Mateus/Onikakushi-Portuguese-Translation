@@ -4626,7 +4626,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s19/08/990800035", 256, TRUE);
 	OutputLine(NULL, "「とぼけないとぼけない！",
-		//    NULL, "\"Não há necessidade de esconder!", Line_WaitForInput);
+		   NULL, "\"Não há necessidade de esconder!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s19/08/990800036", 256, TRUE);
 	OutputLine(NULL, "　若いうちは経験が大事なんだからなぁ〜！」",
 		   NULL, " É importante adquirir muita experiência quando se é jovem~!\"", GetGlobalFlag(GLinemodeSp));
