@@ -648,7 +648,7 @@ void main()
 //　大まかな内容は、以前拾った写真週刊誌で読んだのと同じだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大まかな内容は、以前拾った写真週刊誌で読んだのと同じだ。",
-		   NULL, "Os principais detalhes coincidiam com o que estava no tabloide que eu havia lido anteriormente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Os principais detalhes coincidiam com o que estava no jornal que eu havia lido anteriormente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　確かに悲惨な事件だが……レナや魅音が俺にひた隠すほどのものとは思わなかった＠
@@ -1595,7 +1595,7 @@ void main()
 //　警察という単語がなんだかとても頼もしく感じられた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　警察という単語がなんだかとても頼もしく感じられた。",
-		   NULL, "Hearivê-lo dizer \"políciais\" me fez sentir muito melhor.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Vê-lo dizer \"políciais\" me fez sentir muito melhor.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
