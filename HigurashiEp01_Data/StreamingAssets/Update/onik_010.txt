@@ -4408,7 +4408,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…ずーっと待ってたんだよ？　…だよ？」",
-		   NULL, " ...Esperei todo esse tempo, sabe? ... Você sabe?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Esperei todo esse tempo, sabe? ...Você sabe?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4610,7 +4610,7 @@ void main()
 		   NULL, "\"Hã?", Line_Continue);
 	Wait( 1000 );
 	OutputLine(NULL, "　薬屋なんかに用ないよ。",
-		   NULL, " Não tenho nenhum negócio na farmácia.", Line_WaitForInput);
+		   NULL, " Não tenho nada para comprar na farmácia.", Line_WaitForInput);
 
 	DisableWindow();
 	ModDrawCharacter(1, 3, "sprite/me1a_wink_a1_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
