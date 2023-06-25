@@ -116,7 +116,7 @@ void main()
 //　...形状その他から素手の暴行によるもの、それも複数人に囲まれてであることは明白だ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…形状その他から素手の暴行によるもの、それも複数人に囲まれてであることは明白だ。",
-		   NULL, "... Pela forma das fotos, fica claro que ele foi agredido primeiro por alguém - ou por um grupo de pessoas.", Line_Normal);
+		   NULL, "...Pela forma das fotos, fica claro que ele foi agredido primeiro por alguém - ou por um grupo de pessoas.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	FadeBustshotWithFiltering( 5, "up", 0, FALSE, 0, 0, 1300, TRUE );
@@ -125,7 +125,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Investigador forense</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/443200005", 256, TRUE);
 	OutputLine(NULL, "「分泌物から見て、仏は極度の興奮状態にあったのは間違いないのう。」",
-		   NULL, "\"De acordo com o relatório toxicológico, a falecida estava em um estado extremo de histeria logo antes da morte.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"De acordo com o relatório toxicológico, o falecido estava em um estado extremo de histeria logo antes da morte.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -352,7 +352,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Investigador forense</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/443200015", 256, TRUE);
 	OutputLine(NULL, "「だとすると、結構犯人は多人数だの。",
-		   NULL, "\"Em seguida, houve alguns perpetradores.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Em seguida, houve alguns criminosos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -403,7 +403,7 @@ void main()
 	OutputLine(NULL, "　それ以上に、あの異常な死に方の理由がわからない……。",
 		   NULL, "Além disso, ainda não consigo entender a maneira irregular como ele morreu...", Line_WaitForInput);
 	OutputLine(NULL, "謎だらけだ。",
-		   NULL, " It's full of mysteries.", Line_Normal);
+		   NULL, " É cheia de mistérios.", Line_Normal);
 	ClearMessage();
 
 //「こっちもそこは重視しとる＠徹底的に調べるつもりだが...あまり期待できんな＠何しろ、過去にこんな例はないんだからな。＠
