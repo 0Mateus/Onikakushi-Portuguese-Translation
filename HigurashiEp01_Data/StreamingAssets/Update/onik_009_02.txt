@@ -568,7 +568,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800020", 256, TRUE);
 	OutputLine(NULL, "「あったよ。",
-		   NULL, "\"Havia.", Line_WaitForInput);
+		   NULL, "\"Houve.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800021", 256, TRUE);
 	OutputLine(NULL, "偶然、その時期に雛見沢にいてね。",
 		   NULL, " Na época, eu estava aqui em Hinamizawa,", Line_WaitForInput);
@@ -1487,7 +1487,7 @@ void main()
 //　…そしてまた、いつもの日常が戻ってくるんだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そしてまた、いつもの日常が戻ってくるんだ。",
-		   NULL, "... E todos nós teríamos voltado a viver como sempre.", Line_Normal);
+		   NULL, "...E todos nós teríamos voltado a viver como sempre.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1576,7 +1576,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800054", 256, TRUE);
 	OutputLine(NULL, "「全ての事件が原因不明で犯人も手口もナゾ、っていうなら僕も祟りを疑ってもいいよ。",
-		   NULL, "\"Se as causas de todos os crimes fossem desconhecidas, com os perpetradores e seus métodos sendo todos mistérios, então eu admitiria a possibilidade de uma maldição.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Se as causas de todos os crimes fossem desconhecidas, com os criminosos e seus métodos sendo todos mistérios, então eu admitiria a possibilidade de uma maldição.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2296,7 +2296,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300004", 256, TRUE);
 	OutputLine(NULL, "「じゃ〜富竹さん、覚悟はいいかなぁ？　罰ゲーム！！」",
-		   NULL, "\"Então, Tomitake-san, você está pronto? Hora do pênalti!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Então, Tomitake-san, você está pronto? Hora da penalidade!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2324,7 +2324,7 @@ void main()
 	OutputLine(NULL, "　魅音がポケットからマジックを引きぬく。",
 		   NULL, "Mion tirou um marcador de ponta de feltro do bolso.", Line_WaitForInput);
 	OutputLine(NULL, "……あぁ、アレだな。",
-		   NULL, " ...Oh, it's that.", Line_Normal);
+		   NULL, " ...Ah, é isso.", Line_Normal);
 	ClearMessage();
 
 
@@ -2705,7 +2705,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300012", 256, TRUE);
 	OutputLine(NULL, "「じゃ、うちらも引き上げるかね！」",
-		   NULL, "\"Bem, já está na hora de decolarmos também!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Bem, já está na hora de irmos também!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2721,7 +2721,7 @@ void main()
 //　俺はいつもの下校チームで帰宅する￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺はいつもの下校チームで帰宅する。",
-		   NULL, "Voltei para casa com os suspeitos de sempre.", Line_Normal);
+		   NULL, "Voltei para casa com as mesmas pessoas de sempre.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2787,7 +2787,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100043", 256, TRUE);
 	OutputLine(NULL, "「…ヘンなヤツがいたら大声出せよ。」",
-		   NULL, "\"... Se você se deparar com um estranho, basta gritar.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Se você se deparar com um estranho, basta gritar.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2865,7 +2865,7 @@ void main()
 	OutputLine(NULL, "　誰もが微塵ほども口にしない祟りの話。",
 		   NULL, "A maldição que nenhuma alma mencionou, nem mesmo sob sua respiração.", Line_WaitForInput);
 	OutputLine(NULL, "……知れば知るほどに不安になる、今夜。",
-		   NULL, " ... Quanto mais eu aprendia sobre o assunto hoje à noite, mais inquietante ele se tornava.", Line_Normal);
+		   NULL, " ...Quanto mais eu aprendia sobre o assunto hoje à noite, mais inquietante ele se tornava.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
