@@ -2180,7 +2180,7 @@ void main()
 //　そして…震えながら引き当てた罰ゲームの内容は！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして…震えながら引き当てた罰ゲームの内容は！！！",
-		   NULL, "E assim... a penalidade que ela desenhou com dedos trêmulos foi...!", Line_Normal);
+		   NULL, "E assim... a penalidade que ela puxou com dedos trêmulos foi...!", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -4078,7 +4078,7 @@ void main()
 		   NULL, " Pense nisso como um pequeno benefício!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300325", 256, TRUE);
 	OutputLine(NULL, "　私、スタイルすっごく悪いからぁ圭ちゃんでも着れないことないと思うよ！！」",
-		   NULL, " Não estou tão em forma, então acho que até a Kei-chan pode caber nele!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Não estou tão em forma, então acho que até o Kei-chan pode caber nele!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
