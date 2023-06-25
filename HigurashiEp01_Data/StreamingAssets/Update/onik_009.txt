@@ -500,7 +500,7 @@ void main()
 //　古手神社は以前来た時の様子からは想像もつかないくらいの大賑わいを見せていた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手神社は以前来た時の様子からは想像もつかないくらいの大賑わいを見せていた。",
-		   NULL, "O santuário de Furude estava muito mais animado do que da última vez que estive lá, superando em muito minhas expectativas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O santuário Furude estava muito mais animado do que da última vez que estive lá, superando em muito minhas expectativas.", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
@@ -597,7 +597,7 @@ void main()
 //　二人にとってはすれ違う人は全て知り合いだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　二人にとってはすれ違う人は全て知り合いだ。",
-		   NULL, "Esses dois conheciam todo mundo que encontrávamos.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Essas duas conheciam todo mundo que encontrávamos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1632,7 +1632,7 @@ void main()
 
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei33770", 256, TRUE);
 	OutputLine(NULL, "……多分",
-		   NULL, " ...acho que", Line_Continue);
+		   NULL, " ...Acho que", Line_Continue);
 
 	SetSpeedOfMessage( FALSE, 0, );
 
@@ -2867,7 +2867,7 @@ void main()
 //　互いを威嚇し合い一指即発状態の魅音と沙都子＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　互いを威嚇し合い一触即発状態の魅音と沙都子！",
-		   NULL, "Eles se insultavam mutuamente e pareciam estar prontos para se enfrentar a qualquer momento!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Elas se insultavam mutuamente e pareciam estar prontos para se enfrentar a qualquer momento!", GetGlobalFlag(GLinemodeSp));
 
 
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n\n", Line_ContinueAfterTyping); }
@@ -3754,7 +3754,7 @@ void main()
 		   NULL, "\"As regras são simples!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/500300744", 256, TRUE);
 	OutputLine(NULL, "　３発撃って、得られた景品のデカさで勝負しよう！！」",
-		   NULL, " Três fotos! O vencedor é aquele que receber o maior prêmio!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Três tiros! O vencedor é aquele que receber o maior prêmio!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5296,7 +5296,7 @@ void main()
 		   NULL, "\"Para derrubar o urso.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei34190", 256, TRUE);
 	OutputLine(NULL, "……レナにプレゼントするって。」",
-		   NULL, " ...Em seguida, entregua-lo à Rena. Essa.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Em seguida, entregá-lo à Rena. Esse.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5724,7 +5724,7 @@ void main()
 //　それが地面に落ちる前にオヤジがキャッチし、俺に投げてよこす￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それが地面に落ちる前にオヤジがキャッチし、俺に投げてよこす。",
-		   NULL, "O cara a pegou antes que ela caísse no chão e a jogou para mim.", Line_Normal);
+		   NULL, "O cara o pegou antes que ela caísse no chão e a jogou para mim.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
