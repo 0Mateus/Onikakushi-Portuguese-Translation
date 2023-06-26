@@ -620,7 +620,7 @@ void main()
 //　…鬼隠しにあう、という言葉の使い方と前後関係から見て、類似語の神隠しと同等のものだろうか＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…鬼隠しにあう、という言葉の使い方と前後関係から見て、類似語の神隠しと同等のものだろうか。",
-		   NULL, "... Ser 'raptado pelo demônio'. Pelo contexto em que foi usado, eu diria que é semelhante a ser levado por um espírito.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Ser 'raptado pelo demônio'. Pelo contexto em que foi usado, eu diria que é semelhante a ser levado por um espírito.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2775,7 +2775,7 @@ void main()
 //　なら…おあいこじゃないのかよ…？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　なら…おあいこじゃないのかよ…？！",
-		   NULL, "Então... não estamos quites...!?", Line_Normal);
+		   NULL, "Então... não estavamos quites...!?", Line_Normal);
 	ClearMessage();
 
 
@@ -3160,7 +3160,7 @@ void main()
 //　……互いの鼻がぶつかるくらいにまで顔を近づけ……「やさしく」、そう諭した￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……互いの鼻がぶつかるくらいにまで顔を近づけ……「やさしく」、そう諭した。",
-		   NULL, "...Aproximando seu rosto do meu a ponto de quase esbarrar em meu nariz... Ela "gentilmente" me persuadiu.", Line_Normal);
+		   NULL, "...Aproximando seu rosto do meu a ponto de quase esbarrar em meu nariz... Ela 'gentilmente' me persuadiu.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -3696,7 +3696,7 @@ void main()
 //　この、鬼が人をさらってしまうことを本来、「鬼隠し」というらしい￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この、鬼が人をさらってしまうことを本来、「鬼隠し」というらしい。",
-		   NULL, "Demônios levando pessoas é o que realmente significa 'Onikakushi'.", Line_Normal);
+		   NULL, "Demônios levando pessoas é o que \"Onikakushi\" realmente significa.", Line_Normal);
 	ClearMessage();
 
 
@@ -3730,7 +3730,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700141", 256, TRUE);
 	OutputLine(NULL, "「祟りと鬼隠しが必ず一緒に？",
-		   NULL, "\"A maldição e ser demônizado acontecem juntos?", Line_WaitForInput);
+		   NULL, "\"A maldição e o desaparecimento acontecem juntos?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700142", 256, TRUE);
 	OutputLine(NULL, "　それは初めて聞きました。",
 		   NULL, " É a primeira vez que ouço falar disso.", Line_WaitForInput);
@@ -3918,7 +3918,7 @@ void main()
 		   NULL, "\"Mas... Isso é só porque eles não conseguiram encontrar o corpo. Ela ainda está morta, certo?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100239", 256, TRUE);
 	OutputLine(NULL, "　鬼隠しとは違うんじゃないですか…？」",
-		   NULL, " Isso não é diferente de ela ter sido demônizada...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Isso não é diferente de ela ter sido raptada pelo demônio...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3937,7 +3937,7 @@ void main()
 //　これを鬼隠しと呼んでいいかわからない…＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これを鬼隠しと呼んでいいかわからない…。",
-		   NULL, "Não tenho certeza se foi correto chamar isso de ser demônizado...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não tenho certeza se foi correto chamar isso de ser raptado pelo demônio...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4024,7 +4024,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700157", 256, TRUE);
 	OutputLine(NULL, "「これらを鬼隠しと呼んでいいかはちょぉっとわかりませんがね。",
-		   NULL, "\"Não tenho certeza se poderíamos nos referir a esses casos como sendo demônizado.", Line_WaitForInput);
+		   NULL, "\"Não tenho certeza se poderíamos nos referir a esses casos como sendo raptado pelo demônio.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700158", 256, TRUE);
 	OutputLine(NULL, "前原さんの言う通り、確かに毎年１人、行方不明になっています。」",
 		   NULL, " É exatamente como você disse. Todo ano, uma pessoa desaparece.\"", GetGlobalFlag(GLinemodeSp));
@@ -4158,7 +4158,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100250", 256, TRUE);
 	OutputLine(NULL, "「……例えば…鬼隠しにあって失踪した人には…何か共通点があるとか？」",
-		   NULL, "\"...Será que... aqueles que foram demônizados... têm algo em comum?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Será que... aqueles que foram raptados pelo demônio... têm algo em comum?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4234,7 +4234,7 @@ void main()
 //　…そう言えば…確か富竹さんも「弟本人は生きていて引っ越した」みたいなことを話してくれた気がする￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そう言えば…確か富竹さんも「弟本人は生きていて引っ越した」みたいなことを話してくれた気がする。",
-		   NULL, "...Pensando bem... Acredito que Tomitake-san também me disse: 'O irmão mais novo está vivo e se mudou', se bem me lembro.", Line_Normal);
+		   NULL, "...Pensando bem... Acredito que Tomitake-san também me disse \"O irmão mais novo está vivo e se mudou,\" se bem me lembro.", Line_Normal);
 	ClearMessage();
 
 
@@ -4331,7 +4331,7 @@ void main()
 	SetSpeedOfMessage( FALSE, 0, );
 
 	OutputLine(NULL, "鬼隠しにあって",
-		   NULL, "No lugar que uma vez que pertencia àquele que foi demonizado.", Line_ContinueAfterTyping);
+		   NULL, "No lugar que uma vez que pertencia àquele que foi raptado pelo demônio.", Line_ContinueAfterTyping);
 // !s800
 
 	SetSpeedOfMessage( TRUE, 0, );
@@ -4606,7 +4606,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100261", 256, TRUE);
 	OutputLine(NULL, "「…それは…レナを見張れってことですか？」",
-		   NULL, "\"... Você está... me pedindo para manter Rena sob vigilância?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Você está... me pedindo para manter Rena sob vigilância?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4709,7 +4709,7 @@ void main()
 		   NULL, " Minhas desculpas novamente por ligar tão tarde.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700189", 256, TRUE);
 	OutputLine(NULL, "…何かわかりましたら教えて下さい。",
-		   NULL, " ... Se você descobrir mais alguma coisa, informe-me.", Line_WaitForInput);
+		   NULL, " ...Se você descobrir mais alguma coisa, informe-me.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700190", 256, TRUE);
 	OutputLine(NULL, "こちらも進展がありましたらご連絡しますよ。",
 		   NULL, " Eu lhe direi se fiz algum progresso nesse sentido.", Line_WaitForInput);
