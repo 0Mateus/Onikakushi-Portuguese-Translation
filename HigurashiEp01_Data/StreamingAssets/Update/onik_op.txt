@@ -56,7 +56,7 @@ void main()
 
 //　身を引き裂かされる方がはるかにマシだと思った。!w4000
 	OutputLine(NULL, "身を引き裂かされる方がはるかにマシだと思った。",
-		   NULL, " Ter meu corpo despedaçado teria sido muito melhor.", Line_Normal);
+		   NULL, " ter meu corpo despedaçado teria sido muito melhor.", Line_Normal);
 	ClearMessage();
 
 
@@ -67,7 +67,7 @@ void main()
 //　信じてた。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "信じてた。",
-		   NULL, "Eu confiava nela.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu confiei nela.", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 4, "wa_015", 56, 64 );
 	Wait( 1000 );
@@ -102,7 +102,7 @@ void main()
 //　でも......薄々は気付いてる。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "でも…薄々は気付いてる。",
-		   NULL, "Mas... Estou começando a perceber.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas... estou começando a perceber.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -136,7 +136,7 @@ void main()
 //　さらなる涙が...顔をもっとぐしゃぐしゃにする...。!w3000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "さらなる涙が…顔をもっとぐしゃぐしゃにする…。",
-		   NULL, "E aquelas lágrimas... aquelas lágrimas bagunçando meu rosto...", Line_Normal);
+		   NULL, "E aquelas lágrimas... aquelas lágrimas espalhadas pelo meu rosto...", Line_Normal);
 	ClearMessage();
 //locate 0,6
 
@@ -168,7 +168,7 @@ void main()
 //　...彼女のそれはまだ聞こえる気がする。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…彼女のそれはまだ聞こえる気がする。",
-		   NULL, "...senti como se ainda pudesse ouvir sua voz.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Senti como se ainda pudesse ouvir sua voz.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -191,14 +191,14 @@ void main()
 //　泣いているのは俺だけだった。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "泣いているのは俺だけだった。",
-		   NULL, "O único que está chorando sou eu.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O único chorando aqui sou eu.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　彼女は泣きもしなかった。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "彼女は泣きもしなかった。",
-		   NULL, "Ela nunca chorava.", Line_Normal);
+		   NULL, "Ela nunca chorou.", Line_Normal);
 	ClearMessage();
 
 //locate 0,2
@@ -221,7 +221,7 @@ void main()
 
 //　...彼女らのために流す涙はいらないはずなのだ。!w4000
 	OutputLine(NULL, "…彼女らのために流す涙はいらないはずなのだ。",
-		   NULL, " não deveria precisar se desfazer de nenhum para ela.", Line_Normal);
+		   NULL, " não deveria precisar derramar nenhuma por ela.", Line_Normal);
 	ClearMessage();
 
 
@@ -235,7 +235,7 @@ void main()
 //　それでも引き裂かれてないと、......信じていたいから。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それでも引き裂かれてないと、…信じていたいから。",
-		   NULL, "Eu ainda queria acreditar... que eu não havia sido separado.", Line_Normal);
+		   NULL, "Eu ainda queria acreditar... que eu não havia sido despedaçado.", Line_Normal);
 	ClearMessage();
 
 //locate 0,6
@@ -267,14 +267,14 @@ void main()
 //　...そして何度も、その痛む心を捨てるべきかどうか迷ったんだ。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…そして何度も、その痛む心を捨てるべきかどうか迷ったんだ。",
-		   NULL, "... e inúmeras vezes fiquei em dúvida se deveria ou não jogar fora o objeto danificado.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...E inúmeras vezes fiquei em dúvida se deveria ou não jogar fora aquele objeto danificado.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　だけど俺は...頑なに、捨てることを拒んだんじゃないか。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だけど俺は…頑なに、捨てることを拒んだんじゃないか。",
-		   NULL, "Exceto... Eu me recusei obstinadamente a fazer isso, não foi?", Line_Normal);
+		   NULL, "Exceto... Que eu me recusei obstinadamente a fazer isso, não foi?", Line_Normal);
 	ClearMessage();
 
 //locate 0,2
@@ -314,7 +314,7 @@ void main()
 //　...俺は充分に頑張った。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…俺は充分に頑張った。",
-		   NULL, "...já tentei mais do que o suficiente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Já tentei mais do que o suficiente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -335,7 +335,7 @@ void main()
 //　......もう楽になってもいいんじゃないか......？!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…もう楽になってもいいんじゃないか…？",
-		   NULL, "...Não é bom seguir o caminho mais fácil?", Line_Normal);
+		   NULL, "...Não é melhor só seguir o caminho mais fácil?", Line_Normal);
 	ClearMessage();
 
 //locate 0,6
@@ -503,7 +503,7 @@ void main()
 //　ひょっとすると、...俺は君の事が、!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ひょっとすると、…俺は君の事が、",
-		   NULL, "Talvez... Eu realmente tenha...", Line_WaitForInput);
+		   NULL, "Talvez... eu realmente tenha...", Line_WaitForInput);
 
 //　!s150.......................................!s50好きだった。!w3000
 
