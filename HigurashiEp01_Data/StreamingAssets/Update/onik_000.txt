@@ -41,7 +41,7 @@ void main()
 //　それに聞き耳を立てるのは悪い気がしたので、意識的に聞かないようにした￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それに聞き耳を立てるのは悪い気がしたので、意識的に聞かないようにした。",
-		   NULL, "Parecia errado escutar, então tentei ignorá-lo.", Line_Normal);
+		   NULL, "Parecia errado escutar, então tentei ignorá-la.", Line_Normal);
 	ClearMessage();
 
 //　親類の葬儀のために戻った、久しぶりの都会だった＠
@@ -90,14 +90,14 @@ void main()
 	OutputLine(NULL, "　あるのはセミの声と清流のせせらぎ。",
 		   NULL, "Há apenas o chilrear de gafanhotos e o murmúrio dos riachos.", Line_WaitForInput);
 	OutputLine(NULL, "そして、ひぐらしの声。",
-		   NULL, " E o canto das higurashi - as cigarras da noite.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " E o canto das higurashi-as cigarras da noite.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　そんな静けさに寂しさでなく、安らぎを感じ始めたのは最近だ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんな静けさに寂しさでなく、安らぎを感じ始めたのは最近だ。",
-		   NULL, "Em vez de me fazer sentir solitária, essa tranquilidade começou a instilar uma sensação de serenidade.", Line_Normal);
+		   NULL, "Em vez de me fazer sentir solitário, essa tranquilidade começou a instilar uma sensação de serenidade.", Line_Normal);
 	ClearMessage();
 
 //　確かに今住む土地には何もない＠
@@ -152,7 +152,7 @@ void main()
 //　アイスクリーム屋に至っては、１０年も住みながらついに一度も入ることはなかったのだから＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　アイスクリーム屋に至っては、１０年も住みながらついに一度も入ることはなかったのだから。",
-		   NULL, "Eu morava na cidade por dez anos e nunca fui a uma sorveteria.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu morei na cidade por dez anos e nunca fui a uma sorveteria.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -166,14 +166,14 @@ void main()
 //　今更ながらちょっと後悔￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今更ながらちょっと後悔。",
-		   NULL, "É só agora que estou começando a me arrepender um pouco.", Line_Normal);
+		   NULL, "E só agora que estou começando a me arrepender um pouco.", Line_Normal);
 	ClearMessage();
 
 //locate 3,7
 //　...誰かが、まだ謝り続けている￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…誰かが、まだ謝り続けている。",
-		   NULL, "Alguém ainda está se desculpando.", Line_Normal);
+		   NULL, "...Alguém ainda está se desculpando.", Line_Normal);
 	ClearMessage();
 
 //click
@@ -241,7 +241,7 @@ void main()
 //　一体彼女が何を犯したのか知らないが、取り返しがつかないものなら、なおのこと許してやるべきだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一体彼女が何を犯したのか知らないが、取り返しがつかないものなら、なおのこと許してやるべきだ。",
-		   NULL, "Não tenho idéia do que ela fez, mas se não pode ser consertado, isso é mais um motivo para perdoá-la.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não tenho ideia do que ela fez, mas se não pode ser consertado, isso é mais um motivo para perdoá-la.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -260,14 +260,14 @@ void main()
 //　なあ、彼女に謝られている誰かさんよ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　なあ、彼女に謝られている誰かさんよ。",
-		   NULL, "Ei você. Aquele que ela está se desculpando...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ei, você. Aquele com quem ela está se desculpando...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　もういい加減に彼女を許してやれよ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もういい加減に彼女を許してやれよ。",
-		   NULL, "Por que você não vai em frente a perdoa?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Por que você só não vai em frente e perdoa ela?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -400,7 +400,7 @@ void main()
 //　そこが今の俺の住む土地、雛見沢（ひなみざわ）だ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこが今の俺の住む土地、雛見沢（ひなみざわ）だ。",
-		   NULL, "Lá, onde eu moro agora. Hinamizawa.", Line_Normal);
+		   NULL, "Ali, onde eu moro agora. Hinamizawa.", Line_Normal);
 	ClearMessage();
 
 
