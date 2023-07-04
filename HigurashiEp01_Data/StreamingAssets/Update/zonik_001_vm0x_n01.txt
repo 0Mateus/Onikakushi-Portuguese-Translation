@@ -62,21 +62,21 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei00250", 256, TRUE);
 	OutputLine(NULL, "「まだヒゲなんか生えるかっ！」",
-		   NULL, "\"Minha barba ainda não começou a crescer!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Minha barba ainda nem começou a crescer!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //「いや、生えてるね。先週ヒゲ剃り買ったでしょ？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300009", 256, TRUE);
 	OutputLine(NULL, "「いや、生えてるね。先週ヒゲ剃り買ったでしょ？」",
-		   NULL, "\"Não, ele já está crescendo. Você comprou uma lâmina de barbear para ele na semana passada, certo?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Não, ela já está crescendo. Você comprou uma lâmina de barbear para ela na semana passada, certo?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //「いや、生えてるね。先週ヒゲ剃り買ったでしょ？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei00260", 256, TRUE);
 	OutputLine(NULL, "「あれは、親父の……って、何でお前が知ってる？」",
-		   NULL, "\"Isso era do meu pai... Espere, como você sabe disso?\"", Line_Normal);
+		   NULL, "\"Isso era para meu pai... Espere, como você sabe disso?\"", Line_Normal);
 
 	ClearMessage();
 
@@ -87,7 +87,7 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……何の真似だ。",
-		   NULL, "... O que ela está fazendo?", Line_Normal);
+		   NULL, "...O que ela está fazendo?", Line_Normal);
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
@@ -106,7 +106,7 @@ void dialog000()
 
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300011", 256, TRUE);
 	OutputLine(NULL, " 圭ちゃんの昨日の夕食からレナのスリーサイズまで、すべておじさんはお見通しさ」",
-		   NULL, " Desde sua última refeição até as medidas de Rena, essa dama sabe de tudo.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Desde sua última refeição até as medidas de Rena, este velho sabe de tudo.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //そう言って、不敵に笑う魅音の肩を俺はポンと叩く
@@ -129,7 +129,7 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300012", 256, TRUE);
 	OutputLine(NULL, "「やっぱ気になるぅ？",
-		   NULL, "\"Como eu pensava, você realmente quer saber?", Line_WaitForInput);
+		   NULL, "\"Como eu pensava, você realmente quer saaaaber?", Line_WaitForInput);
 
 //「……ちなみにレナのスリーサイズは？」
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300013", 256, TRUE);
