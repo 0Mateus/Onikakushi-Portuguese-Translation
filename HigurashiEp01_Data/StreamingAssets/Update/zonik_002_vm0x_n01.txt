@@ -24,13 +24,13 @@ void dialog001()
 		   NULL, "\"Ah, sim~ Então ouça!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200155", 256, TRUE);
 	OutputLine(NULL, "　あ、…あのね！",
-		   NULL, " Ah ...hum, você está vendo!", Line_WaitForInput);
+		   NULL, " Ah ...hum, bem!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200156", 256, TRUE);
 	OutputLine(NULL, "　あったの！",
 		   NULL, " Havia...!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200157", 256, TRUE);
 	OutputLine(NULL, "　ランディーくん人形ッ♪！！」",
-		   NULL, " Um boneco do Coronel Randy!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Um boneco do Coronel Randy!♪\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -39,7 +39,7 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei02350", 256, TRUE);
 	OutputLine(NULL, "「ランディーくん人形？！",
-		   NULL, "\"Um boneco do Coronel Randy?", Line_WaitForInput);
+		   NULL, "\"Um boneco do Coronel Randy!?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei02360", 256, TRUE);
 	OutputLine(NULL, "　…ってあれか、ランディーくんフライドチキンの店の前に必ず置いてある…",
 		   NULL, " ...Ah, aquela coisa. Aquelas estátuas que eles sempre têm em frente àquele lugar de frango frito...", Line_Continue);
@@ -58,7 +58,7 @@ void dialog001()
 		   NULL, "\"...Sim! Coronel Randy.☆", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200159", 256, TRUE);
 	OutputLine(NULL, "　……はぅ……かぁいい……お持ち帰りしたいぃ…☆」",
-		   NULL, " ...Hau... fofíssimo... Quero levá-lo para casa...☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Hau... fofíssimo... quero levá-lo para casa...☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
