@@ -23,7 +23,7 @@ void dialog001()
 		   NULL, "\"Ah, sim~ Então ouça!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200155", 256, TRUE);
 	OutputLine(NULL, "　あ、…あのね！",
-		   NULL, " Ah ... hum, você está vendo!", Line_WaitForInput);
+		   NULL, " Ah ...um, bem!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200156", 256, TRUE);
 	OutputLine(NULL, "　あったの！",
 		   NULL, " Havia...!", Line_WaitForInput);
@@ -68,7 +68,7 @@ void dialog002()
 		   NULL, "\"Keiichi-kun vai ajudar.☆", Line_Continue);
 	Wait( 1500 );
 	OutputLine(NULL, "…ケンタくんをお持ち帰りできる……はぅ…。」",
-		   NULL, " ...posso levar o Coronel Sanders para casa... hau...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Posso levar o Coronel Sanders para casa... hau...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
