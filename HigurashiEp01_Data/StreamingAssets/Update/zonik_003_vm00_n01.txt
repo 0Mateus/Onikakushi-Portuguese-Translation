@@ -21,7 +21,7 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei02890", 256, TRUE);
 	OutputLine(NULL, "「…レナが沙都子や梨花ちゃんをお持ち帰りしたくなるのは分かる。",
-		   NULL, "\"...Entendo que ela queira levar para casa a Satoko e a Rika-chan.", Line_WaitForInput);
+		   NULL, "\"...Entendo que ela queira levar para casa Satoko e Rika-chan.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei02900", 256, TRUE);
 	OutputLine(NULL, "だが、ケンタくん人形だけは理解できないぞ！　あんな眼鏡親父のどこがいいんだ！」",
 		   NULL, " Mas não consigo entender o Coronel Sanders! O que há de tão bom nesse cara de quatro olhos!?\"", GetGlobalFlag(GLinemodeSp));
@@ -99,7 +99,7 @@ void dialog007()
 		   NULL, "\"...Mas... Coronel Sanders... tão fofíssimo...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200210", 256, TRUE);
 	OutputLine(NULL, "お店のケンタくんには鎖がついてるけど……これならお持ち帰りできる",
-		   NULL, " Há uma corrente no Coronel Sanders na loja... Mas este aqui... Eu deveria poder levar este para casa...", Line_Continue);
+		   NULL, " Há uma corrente no Coronel Sanders na loja... Este aqui, no entanto... eu deveria poder levar este para casa...", Line_Continue);
 
 	Wait( 200 );
 
@@ -213,7 +213,7 @@ void dialog010()
 		   NULL, "\"Parece que não conseguiremos quebrar a última viga sem o machado.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05050", 256, TRUE);
 	OutputLine(NULL, "せっかく持ってきてくれたんだし。…明日借りるよ。",
-		   NULL, " Afinal, você o trouxe... Terei que pegá-lo emprestado amanhã.", Line_Continue);
+		   NULL, " Afinal, você o trouxe... terei que pegá-lo emprestado amanhã.", Line_Continue);
 }
 
 void dialog011()
@@ -261,7 +261,7 @@ void dialog013()
 //　…本当に雛見沢でバラバラ殺人なんかあったんですか？、って＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…本当に雛見沢でバラバラ殺人なんかあったんですか？、って。",
-		   NULL, "...Para perguntar, \"Houve realmente um desmembramento aqui em Hinamizawa?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Para perguntar, \"Houve realmente um desmembramento aqui em Hinamizawa?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
 
