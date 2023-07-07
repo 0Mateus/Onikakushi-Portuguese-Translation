@@ -33,7 +33,7 @@ void dialog001()
 //　きっと昨日持ち帰り損ねた、かぁいいランディーくん人形を掘り出しに行くのだろう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　きっと昨日持ち帰り損ねた、かぁいいランディーくん人形を掘り出しに行くのだろう。",
-		   NULL, "Provavelmente para que ela pudesse desenterrar o 'fofíssimo' do Coronel Randy que ela não conseguiu levar para casa ontem.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Provavelmente para que ela pudesse desenterrar o 'fofíssimo' Coronel Randy que ela não conseguiu levar para casa ontem.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -74,7 +74,7 @@ void dialog005()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei04740", 256, TRUE);
 	OutputLine(NULL, "「ほれ、どいたどいた。",
-		   NULL, "\"Ok, agora saia do caminho.", Line_WaitForInput);
+		   NULL, "\"Okay, agora saia do caminho.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei04750", 256, TRUE);
 	OutputLine(NULL, "で、どこだよランディーくんは。」",
 		   NULL, " Então, onde está o Coronel Randy?\"", GetGlobalFlag(GLinemodeSp));
@@ -99,7 +99,7 @@ void dialog007()
 		   NULL, "\"...Mas... Coronel Randy... tão fofíssimo...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200210", 256, TRUE);
 	OutputLine(NULL, "お店のランディーくんには鎖がついてるけど……これならお持ち帰りできる",
-		   NULL, " Há uma corrente no Coronel Randy na loja... Mas este aqui... Devo poder levar este para casa...", Line_Continue);
+		   NULL, " Há uma corrente no Coronel Randy na loja... Este aqui, no entanto... eu deveria poder levar para casa...", Line_Continue);
 
 	Wait( 200 );
 
@@ -133,7 +133,7 @@ void dialog009()
 	OutputLine(NULL, "…つるはしで。",
 		   NULL, " ...Com picaretas.", Line_WaitForInput);
 	OutputLine(NULL, "…鉈、で。",
-		   NULL, " ...Com... um machado.", Line_Normal);
+		   NULL, " ...Com... uma machadinha.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -177,7 +177,7 @@ void dialog009()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200220", 256, TRUE);
 	OutputLine(NULL, "「きゃッ！、ごご、ごめんなさい…！！！",
-		   NULL, "\"Eek! D-Desculpa...!!!", Line_WaitForInput);
+		   NULL, "\"Eek! D-D-Desculpe...!!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200221", 256, TRUE);
 	OutputLine(NULL, "　驚いたかな？！驚いたかな？！」",
 		   NULL, " Eu o assustei!? Eu o assustei!?\"", GetGlobalFlag(GLinemodeSp));
@@ -244,7 +244,7 @@ void dialog012()
 //　富竹さんは「事件」と言い「腕が一本見つからない」と言っていた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　富竹さんは「事件」と言い、それに続けて何かが「見つかっていない」と言っていた。",
-		   NULL, "Tomitake-san disse que \"eles ainda não encontraram\" algo em um 'incidente'.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tomitake-san disse que \"eles ainda não encontraram\" algo em um 'incidente.'", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
