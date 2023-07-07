@@ -928,7 +928,7 @@ void main()
 	OutputLine(NULL, "………麻雀風に言うなら…",
 		   NULL, " ...Se isso fosse um teste...", Line_WaitForInput);
 	OutputLine(NULL, "ガン牌ジジ抜き！！",
-		   NULL, " e então elas estavam brincando com a folha de respostas na frente deles!!", Line_ContinueAfterTyping);
+		   NULL, " então elas estavam brincando com a folha de respostas bem na frente de seus olhos!!", Line_ContinueAfterTyping);
 
 	PlaySE( 4, "wa_007", 56, 64 );
 	ShakeScreen( 1, 50, 20, 3, 0, );
@@ -1323,7 +1323,7 @@ void main()
 //　カードの端に特徴的な傷のあるカードは手やカードに重ね、見えないように工夫する＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　カードの端に特徴的な傷のあるカードは手やカードに重ね、見えないように工夫する。",
-		   NULL, "Cobri as cartas com marcas únicas com minhas mãos e com outras cartas, organizando-as de forma que não pudessem ser vistos.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Cobri as cartas com marcas únicas com minhas mãos e com outras cartas, organizando-as de forma que não pudessem ser vistas.", GetGlobalFlag(GLinemodeSp));
 
 	DisableWindow();
 	FadeBustshotWithFiltering( 3, "left", 1, FALSE, 0, 0, 300, TRUE );
@@ -1335,7 +1335,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 5, "ps3/s19/05/990500034", 256, TRUE);
 	OutputLine(NULL, "「…角が割れているのは５だったはずです。",
-		   NULL, "\"...O que tem o canto rasgado deve ser o Cinco...", Line_WaitForInput);
+		   NULL, "\"...A que tem o canto rasgado deve ser o Cinco...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 5, "ps3/s19/05/990500035", 256, TRUE);
 	OutputLine(NULL, "……あがりましたです。」",
 		   NULL, " E... Estou fora.\"", GetGlobalFlag(GLinemodeSp));
