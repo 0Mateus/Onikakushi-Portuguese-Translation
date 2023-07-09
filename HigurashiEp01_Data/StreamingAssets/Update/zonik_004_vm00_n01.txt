@@ -119,7 +119,7 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400106", 256, TRUE);
 	OutputLine(NULL, "「ス、スペースコロニーですってぇえぇッ？！」",
-		   NULL, "\"U-Uma colônia espacial!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"U-Uma colônia espaciaaaaal!?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -241,7 +241,7 @@ void dialog007()
 		   NULL, "Se eles voltarem a despejar ilegalmente, ele será completamente enterrado e será impossível desenterrá-lo, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "なんてことになれば……間違いなくレナは町のフライドチキン屋のケンタくん人形を狙うだろう。",
-		   NULL, "E se isso acontecer... Rena, sem dúvida, irá atrás do Coronel Sanders em frente ao restaurante de frango frito da cidade.", Line_Normal);
+		   NULL, "e se isso acontecer... Rena, sem dúvida, irá atrás do Coronel Sanders em frente ao restaurante de frango frito da cidade.", Line_Normal);
 	ClearMessage();
 }
 
@@ -361,7 +361,7 @@ void dialog014()
 		   NULL, " ...Obrigado.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200279", 256, TRUE);
 	OutputLine(NULL, "……ケンタくん……お休みのキス……はぅ……。」",
-		   NULL, " ...dando um beijo de boa noite no Coronel Sanders... hau...\"", Line_Normal);
+		   NULL, " ...Dando um beijo de boa noite... no Coronel Sanders... hau...\"", Line_Normal);
 	ClearMessage();
 }
 
@@ -433,10 +433,10 @@ void dialog020()
 		   NULL, "\"Eu sei...!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps2/04/990400088", 540, TRUE);
 	OutputLine(NULL, "知ってるもん！！",
-		   NULL, " Eu sei...!!", Line_WaitForInput);
+		   NULL, " Eu sei!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400089", 256, TRUE);
 	OutputLine(NULL, "　知ってるもん！！！…",
-		   NULL, " Eu sei...!!!...", Line_Continue);
+		   NULL, " Eu sei!!!...", Line_Continue);
 
 	Wait( 300 );
 
