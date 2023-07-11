@@ -28,7 +28,7 @@ void dialog001()
 //　それはみんなランディーくん同様、町を歩けばどこかで見かけるようなものばかりだった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それはみんなケンタくん同様、町を歩けばどこかで見かけるようなものばかりだった。",
-		   NULL, "Eles eram todos iguais ao Coronel Sanders: coisas que você veria ao andar pela cidade.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Elas eram todas coisas tipo o Coronel Sanders: coisas que você veria ao andar pela cidade.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
 
