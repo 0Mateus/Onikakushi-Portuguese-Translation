@@ -55,7 +55,7 @@ void main()
 	OutputLine(NULL, "　ＸＸ日午前８時頃、",
 		   NULL, "No dia XX, às 8 horas da manhã,", Line_WaitForInput);
 	OutputLine(NULL, "鹿骨市内の病院から警察へ、「ＸＸＸＸさんを殺害したことをほのめかす男性がいる」との通報があり、",
-		   NULL, " Um relatório foi registrado pelo hospital da cidade de Shishibone, no qual um suspeito do sexo masculino aludiu ter assassinado o Sr. XXXX. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " um relatório foi registrado pelo hospital da cidade de Shishibone, no qual um suspeito do sexo masculino aludiu ter assassinado o Sr. XXXX. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "警察官が駆けつけ事情を聞いたところ、事件を自供。",
 		   NULL, "Quando interrogado na delegacia de polícia, o indivíduo confessou o crime.", GetGlobalFlag(GLinemodeSp));
