@@ -2016,10 +2016,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400048", 256, TRUE);
 	OutputLine(NULL, "「をっほっほ！　見せてもらおうではございませんかぁ。",
-		   NULL, "\"Ho ho ho! Então, por que não peço para você me mostrar?", Line_WaitForInput);
+		   NULL, "\"Ho ho ho! Por que você não me mostra então?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400049", 256, TRUE);
 	OutputLine(NULL, "年増の足掻きをッ！！」",
-		   NULL, " O desespero de uma solteirona!!\"", Line_Normal);
+		   NULL, " A angústia de uma solteirona de idade!!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2099,7 +2099,7 @@ void main()
 
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200122", 256, TRUE);
 	OutputLine(NULL, "……ぇぇと",
-		   NULL, " Humm...", Line_Continue);
+		   NULL, " Umm...", Line_Continue);
 
 	SetSpeedOfMessage( FALSE, 0, );
 
@@ -3099,7 +3099,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homem</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s19/08/990800001", 256, TRUE);
 	OutputLine(NULL, "「お、おぉっと！",
-		   NULL, "\"O-Ou!", Line_WaitForInput);
+		   NULL, "\"W-Whoa!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s19/08/990800002", 256, TRUE);
 	OutputLine(NULL, "…びっくりした！」",
 		   NULL, " ...Você me assustou!\"", GetGlobalFlag(GLinemodeSp));
@@ -3456,7 +3456,7 @@ void main()
 		   NULL, "\"Ele se tornou a base de outra pilha.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200161", 256, TRUE);
 	OutputLine(NULL, "…簡単には掘り出せないし…。",
-		   NULL, " ...não consigo retirá-lo facilmente...", Line_WaitForInput);
+		   NULL, " ...Não consigo retirá-lo facilmente...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200162", 256, TRUE);
 	OutputLine(NULL, "あそこ、灯りがないからすぐ暗くなっちゃうし…。」",
 		   NULL, " Não há postes de iluminação por aqui, então logo escurecerá...\"", GetGlobalFlag(GLinemodeSp));
