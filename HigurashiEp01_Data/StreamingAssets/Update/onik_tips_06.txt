@@ -24,7 +24,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢ダムで悪夢の惨劇！",
-		   NULL, "Um pesadelo se abate sobre a represa de Hinamizawa!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pesadelo assola a represa de Hinamizawa!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -62,7 +62,7 @@ void main()
 	OutputLine(NULL, "「始めは殺すつもりはなかったのでしょう。",
 		   NULL, "\"Provavelmente não pretendiam matá-lo no início,", Line_WaitForInput);
 	OutputLine(NULL, "　ですが被害者がシャベルを振り回して抵抗を始めると、加害者たちも一斉に得物を手にし、一気に殺し合いにエスカレートしたのです。」",
-		   NULL, " Mas, como a vítima resistiu empunhando uma pá, os demais agressores se armaram e o caso rapidamente se transformou em homicídio.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mas como a vítima resistiu empunhando uma pá, os demais agressores se armaram e o caso rapidamente se transformou em homicídio.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -175,7 +175,7 @@ void main()
 //　毒食らわば皿まで...ということなのか＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　毒食らわば皿まで…ということなのか。",
-		   NULL, "O que significava: 'Se for para arriscar, que seja por muito'.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O que significava: 'Se for para arriscar... que seja por muito.'", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -192,7 +192,7 @@ void main()
 		   NULL, "\"Os criminosos choraram e vomitaram enquanto realizavam a tarefa horrível. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "頑強に抵抗する者もいましたが、ＸＸに「今さらもうひとり死んでも同じことだぞ。」と凄まれ、結局は抗えなかったのです。」",
-		   NULL, "Houve uma pessoa que se recusou obstinadamente, mas XX a ameaçou, dizendo: \"Nada mudaria se outra pessoa acabasse morta\", e ela desistiu de suas objeções.", Line_Normal);
+		   NULL, "Houve uma pessoa que se recusou obstinadamente, mas XX a ameaçou, dizendo: \"Nada mudaria se outra pessoa acabasse morta,\" e ela desistiu de suas objeções.", Line_Normal);
 	ClearMessage();
 
 //　だがＸＸの目論見はわずか一晩で崩れた＠
@@ -267,7 +267,7 @@ void main()
 	OutputLine(NULL, "「もちろんそれも疑っています。",
 		   NULL, "\"É claro que duvido dessa teoria.", Line_WaitForInput);
 	OutputLine(NULL, "…車はないはずなので、逃げられる範囲にも限度があると思うのですが…。",
-		   NULL, " Como ele não tem carro, é de se esperar que ele tenha uma área limitada para a qual poderia ter fugido. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sem um carro, é de se esperar que ele tenha uma área limitada para a qual poderia ter fugido. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "署内では、死体を捨てる時に誤って自分も沼に溺れてしまったのではないかと囁かれています…。」",
 		   NULL, "Mas dentro da estação havia rumores de que ele havia escorregado acidentalmente e se afogado no pântano quando foi jogar fora o corpo.\"", Line_Normal);
