@@ -94,7 +94,7 @@ void main()
 //　一体の何の話だ？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一体の何の話だ？！",
-		   NULL, "Do que elas estão falando?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Do que elas estão falando!?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -102,7 +102,7 @@ void main()
 //　いきなり小遣いの額を聞かれ、それで小市民だの金持ちじゃないだの￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いきなり小遣いの額を聞かれ、それで小市民だの金持ちじゃないだの！",
-		   NULL, "Quando me perguntam, do nada, quanto eu recebo e depois me dizem que é uma quantia plebeia!", Line_Normal);
+		   NULL, "Me perguntam do nada quanto eu recebo, e depois me dizem que é uma quantia plebeia!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacterWithFiltering(3, 2, "sprite/re1a_warai_a1_", "2", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
@@ -160,7 +160,7 @@ void main()
 //　あぁなるほど＠納得＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あぁなるほど。",
-		   NULL, "Estou vendo.", Line_WaitForInput);
+		   NULL, "Entendo.", Line_WaitForInput);
 	OutputLine(NULL, "納得。",
 		   NULL, " Agora estou entendendo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -182,7 +182,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s20/04/440400009", 256, TRUE);
 	OutputLine(NULL, "「私の推理では、お家を建てるのにお金をかけ過ぎて、貧乏になってしまったと考えてますのよ〜！」",
-		   NULL, "\"Pela minha dedução, aposto que eles gastaram muito dinheiro na construção da casa, e é por isso que agora estão falidos!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Pela minha dedução, aposto que eles gastaram muito dinheiro na construção da casa, por isso que agora estão falidos~!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -357,7 +357,7 @@ void main()
 //　...なんか楽しそうに想像が膨らんでいってるな...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…なんか楽しそうに想像が膨らんでいってるな…。",
-		   NULL, "...Parece que a imaginação deles estava apenas se acumulando...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Parece que a imaginação delas estava apenas se acumulando...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -365,7 +365,7 @@ void main()
 //　でもまぁ。...遠くない将来、みんなを自宅に招待してもいいかもな＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でもまぁ。…遠くない将来、みんなを自宅に招待してもいいかもな。",
-		   NULL, "Bem... Em algum momento no futuro próximo, não seria tão ruim convidá-los todos para minha casa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Bem... Em algum momento no futuro próximo, não seria tão ruim convidá-las para minha casa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
